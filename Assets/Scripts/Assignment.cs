@@ -7,10 +7,8 @@ public class Assignment : ProcessingLite.GP21
 {
     float diameter = 0.1f;
     float spaceBetweenLines = 0.15f;
-
     private Image m_preview;
 
-    [System.NonSerialized]
     public static bool m_toggleRainbow = true;
     public static float r;
     public static float g;
